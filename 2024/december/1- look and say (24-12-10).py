@@ -1,3 +1,4 @@
+# problem (codewars)
 """
 Task
 Get the digits sum of nth number from the Look-and-Say sequence(1-based).
