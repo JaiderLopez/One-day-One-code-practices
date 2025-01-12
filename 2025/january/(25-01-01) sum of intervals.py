@@ -28,7 +28,7 @@ else: capture min and max between overlapping intervals
 """
 
 #First implementation
-def sum_intervals(intervals):
+def sum_of_intervals(intervals):
    if not intervals:
       return 0
 
@@ -50,7 +50,7 @@ def sum_intervals(intervals):
 # Ejemplos de uso
 # print(sum_intervals([[1, 2], [6, 10], [11, 15]]))  # Salida: 9
 # print(sum_intervals([[1, 4], [7, 10], [3, 5]]))   # Salida: 7
-print(sum_intervals([[1, 5], [10, 20], [1, 6], [16, 19], [5, 11]]))  # Salida: 19
+print(sum_of_intervals([[1, 5], [10, 20], [1, 6], [16, 19], [5, 11]]))  # Salida: 19
 # print(sum_intervals([[1, 5]]))  # 4
 # print(sum_intervals([[0, 20], [-100000000, 10], [30, 40]]))  # Salida: 100000030
 
